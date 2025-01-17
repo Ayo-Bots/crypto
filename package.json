@@ -1,0 +1,39 @@
+{
+  "name": "@ayobot/crypto",
+  "version": "1.0.0",
+  "description": "A encryption and decryption tool for out platforms",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write .",
+    "dev": "tsx src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayo-Bots/crypto.git"
+  },
+  "keywords": [
+    "crypto",
+    "encryption",
+    "decryption"
+  ],
+  "author": "ryzmae",
+  "license": "MIT",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/Ayo-Bots/crypto/issues"
+  },
+  "homepage": "https://github.com/Ayo-Bots/crypto#readme",
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "eslint": "^9.18.0",
+    "prettier": "^3.4.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.20.0"
+  }
+}
